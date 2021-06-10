@@ -7,3 +7,9 @@
 1. Search for `Registry...`
 2. Find key`compiler.automake.allow.when.app.running` and enable it.
 3. Settings > Build, Execution, Deployment > Compiler. Enable `Build project automatically`.
+
+## H2 Console
+
+localhost:8080/h2-console
+
+JDBC URL: jdbc:h2:mem:testdb
