@@ -1,5 +1,7 @@
 package guru.springframework.domain;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -7,6 +9,7 @@ import java.util.Set;
 /**
  * Created by developer on 2021-06-07.
  */
+@Data
 @Entity
 public class Recipe {
 
