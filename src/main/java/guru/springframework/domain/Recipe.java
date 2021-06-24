@@ -1,6 +1,8 @@
 package guru.springframework.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -10,6 +12,7 @@ import java.util.Set;
  * Created by developer on 2021-06-07.
  */
 @Data
+@NoArgsConstructor
 @Entity
 public class Recipe {
 
@@ -44,6 +47,10 @@ public class Recipe {
             joinColumns = @JoinColumn(name = "recipe_id"),
             inverseJoinColumns = @JoinColumn(name = "category_id"))
     private Set<Category> categories = new HashSet<>();
+
+    public Recipe(String description) {
+        this.description = description;
+    }
 
     public void setNotes(Notes notes) {
         this.notes = notes;
