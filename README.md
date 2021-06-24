@@ -13,3 +13,7 @@
 localhost:8080/h2-console
 
 JDBC URL: jdbc:h2:mem:testdb
+
+## s10-181 Continuous Integration Testing with Circle CI
+
+Simple change to trigger Circle CI
