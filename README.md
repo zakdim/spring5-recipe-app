@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/zakdim/spring5-recipe-app/tree/master.svg?style=svg)](https://circleci.com/gh/zakdim/spring5-recipe-app/tree/master)
 # Section 7: Web Development with Spring MVC
 
 ## s07-110 InjelliJ Compiler Configuration for Spring Boot Development Tools
