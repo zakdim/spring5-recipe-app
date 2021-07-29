@@ -3,6 +3,7 @@ package guru.springframework.domain;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -13,6 +14,7 @@ import java.util.Set;
  */
 @Data
 @NoArgsConstructor
+@ToString(exclude = {"directions", "ingredients", "image", "notes"})
 @Entity
 public class Recipe {
 
